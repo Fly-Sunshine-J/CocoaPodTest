@@ -118,7 +118,7 @@ s.public_header_files = "Project/**/*.h"
   #
 
   # s.framework  = "SomeFramework"
-   s.frameworks = "UIKit", "Foundation"
+   s.frameworks = "UIKit", "Foundation", "XCTest"
 
   # s.library   = "iconv"
   # s.libraries = "iconv", "xml2"
