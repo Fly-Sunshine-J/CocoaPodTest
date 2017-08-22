@@ -16,8 +16,8 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "Project"
-  s.version      = “1.0.0”
-  s.summary      = “CocoaPod 测试使用.”
+  s.version      = "1.0.0"
+  s.summary      = "CocoaPod 测试使用."
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
@@ -63,7 +63,7 @@ Pod::Spec.new do |s|
   #  the deployment target. You can optionally include the target after the platform.
   #
 
-   s.platform     = :ios, “7.0”
+   s.platform     = :ios, "7.0"
   # s.platform     = :ios, "5.0"
 
   #  When using multiple platforms
@@ -90,7 +90,7 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "FSExpandTableView", "FSExpandTableView/**/*.{h,m}"
+  s.source_files  = "FSExpandTableView/*.{h,m}"
   s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
@@ -105,7 +105,7 @@ Pod::Spec.new do |s|
   #
 
   # s.resource  = "icon.png"
-  s.resources = "Resources/*.png”, “*.png”, “*.md”
+  s.resources = "Resources/*.png", "*.png", "*.md"
 
   # s.preserve_paths = "FilesToSave", "MoreFilesToSave"
 
