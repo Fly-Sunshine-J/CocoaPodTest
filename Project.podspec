@@ -25,7 +25,7 @@ Pod::Spec.new do |s|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   s.description  = <<-DESC
-			CocoaPod 测试使用
+			 扩展的TableView来进行CocoaPod 测试使用
                    DESC
 
   s.homepage     = "https://github.com/Fly-Sunshine-J/CocoaPodTest.git"
@@ -91,7 +91,7 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "FSExpandTableView/*.{h,m}"
+  s.source_files  = "Porject/FSExpandTableView/*.{h,m}"
   s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
@@ -106,7 +106,7 @@ Pod::Spec.new do |s|
   #
 
   # s.resource  = "icon.png"
-  s.resources = "Resources/*.png", "*.png", "*.md"
+  s.resources = "Porject/FSExpandTableView/*.png", "*.png", "*.md"
 
   # s.preserve_paths = "FilesToSave", "MoreFilesToSave"
 
