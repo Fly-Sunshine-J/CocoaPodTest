@@ -91,10 +91,10 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "Classses/**/*.{h,m}"
-  s.exclude_files = "Classes/Exclude"
+  s.source_files  = “Project/**/*.{h,m}”
+  s.exclude_files = "Project/Exclude"
 
-  # s.public_header_files = "Classes/**/*.h"
+s.public_header_files = "Project/**/*.h"
 
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -105,8 +105,8 @@ Pod::Spec.new do |s|
   #  non-essential files like tests, examples and documentation.
   #
 
-  # s.resource  = "icon.png"
-  s.resources = "*.png", "*.md"
+  s.resource  = { :git => 'https://github.com/Fly-Sunshine-J/CocoaPodTest.git', :tag => s.version.to_s }
+  # s.resources = "*.png", "*.md"
 
   # s.preserve_paths = "FilesToSave", "MoreFilesToSave"
 
