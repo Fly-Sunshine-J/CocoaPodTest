@@ -105,7 +105,7 @@ s.public_header_files = "Project/**/*.h"
   #  non-essential files like tests, examples and documentation.
   #
 
-  s.resource  = "Project/**/*.png“
+  s.resource  = "Project/**/*.png"
   # s.resources = "*.png", "*.md"
 
   # s.preserve_paths = "FilesToSave", "MoreFilesToSave"
