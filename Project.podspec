@@ -105,7 +105,7 @@ s.public_header_files = "Project/**/*.h"
   #  non-essential files like tests, examples and documentation.
   #
 
-  s.resource  = { :git => 'https://github.com/Fly-Sunshine-J/CocoaPodTest.git', :tag => s.version.to_s }
+  s.resource  = "Project/**/*.png“
   # s.resources = "*.png", "*.md"
 
   # s.preserve_paths = "FilesToSave", "MoreFilesToSave"
